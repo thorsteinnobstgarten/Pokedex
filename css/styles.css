@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #8b0aa5;
+  --secondary-color: #D6FFF2;
+  --tertiary-color: #483D64;
+  --fourth-color: #c0c0c0;
+  --black: #000;
+  --white: #fff;
+  --font-weight: 400;
+  --h1-font: 30px;
+  --h2-font: 24px;
+  --h3-font: 18px;
+}
+
+.pokemon-list {
+  list-style: none;
+}
+
+.pokemon-button {
+  background-color: var(--tertiary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 16px 32px;
+  margin: 4px 2px;
+
+
+}
