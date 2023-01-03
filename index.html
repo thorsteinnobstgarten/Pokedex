@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pokedex</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </head>
-  <body>
-    <ul class="pokemon-list"></ul>
-    <script src="js/promise-polyfill.js"></script>
-    <script src="js/fetch.umd.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <title>Pokemon-List</title>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <ul class="pokemon-list"></ul>
+  <div id='modal-container'></div>
+  <button id='show-modal'>
+  </button>
+  <script src="js/promise-polyfill.js"></script>
+  <script src="js/fetch.umd.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
